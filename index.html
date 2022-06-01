@@ -1,9 +1,98 @@
-<html>
- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link href="styles.css" rel="stylesheet">
+  <title>Table Project</title>
+</head>
 <body>
-  <h1>YOUR NAME</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+  <header><h1>HTML Cheat Sheet</h1></header>  
+  <table class="table"" border="2">
+    <caption>Document Template</caption>
+    <thead>
+      <tr>
+        <th>Tags</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="one">&lt;!DOCTYPE html&gt;</td>
+        <td class="two">The declaration is not an HTML tag. It is an "information" to the browser about what document type to expect.</td>
+      </tr>
+      <tr>
+        <td class="one">&lt;html lang="en"&gt;&lt;/html&gt;</td>
+        <td class="two">Used to identify the language of text content on the web. This information helps search engines return language specific results, and it is also used by screen readers that switch language profiles to provide the correct accent and pronunciation.</td>
+      </tr>
+      <tr>
+        <td class="one">&lt;head&gt;&lt;/head&gt;</td>
+        <td class="two">Sets off the title & other info that isn't displayed</td>
+        <td rowspan="2">Nested within the &lt;html&gt;&lt;/html&gt; tags</td>
+      </tr>
+      <tr>
+        <td class="one">&lt;body&gt;&lt;/body&gt;</td>
+        <td class="two">Sets off the visible portion of the document</td>
+      </tr>
+    </tbody>
+  </table>
+  <table class="table" border="2">
+    <caption>Head Template</caption>
+    <thead>
+      <tr>
+        <th>Tags</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="one">&lt;meta&gt;</td>
+        <td class="two">Metadata is data (information) about data. The HTML5 specification encourages web developers to use the UTF-8 character set, which covers almost all of the characters and symbols in the world! <strong>Example &lt;meta charset="utf-8"&gt;</strong></td>
+      </tr>
+      <tr>
+        <td class="one">&lt;title&gt;&lt;/title&gt;</td>
+        <td class="two">Puts name of the document in the title bar; when
+bookmarking pages, this is what is bookmarked</td>
+      </tr>
+      <tr>
+        <td class="one">&lt;link&gt;</td>
+        <td class="two">used for defining a link to an external document like CSS and JavaScript. <strong>Example &lt;link href="mystyle.css" rel="stylesheet"&gt;</strong></td>
+      </tr>
+    </tbody>
+ </table>
+ <table class="table" border="2">
+    <caption>Body Template</caption>
+    <thead>
+      <tr>
+        <th>Tags</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="one">&lt;header&gt;&lt;/header&gt;</td>
+        <td class="two">used to define the header for a document or a section as it contains the information related to the title and heading of the related content.</td>
+      </tr>
+      <tr>
+        <td class="one">&lt;h1&gt;&lt;/h1&gt; -- &gt; &lt;h6&gt;&lt;/h6&gt;</td>
+        <td class="two">Creates headlines -- H1=largest, H6=smallest</td>
+      </tr>
+      <tr>
+        <td class="one">&lt;main&gt;&lt;/main&gt;</td>
+        <td class="two">Main content, can only be used once per document.</td>
+      </tr>
+      <tr>
+        <td class="one">&lt;div&gt;&lt;/div&gt;</td>
+        <td class="two">Used to format block content with CSS like id (#) and class (.).</td>
+      </tr>
+      <tr>
+        <td class="one">&lt;nav&gt;&lt;/nav&gt;</td>
+        <td class="two">The nav element represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents.</td>
+      </tr>
+      <tr>
+        <td class="one">&lt;footer&gt;&lt;/footer&gt;</td>
+        <td class="two"> Typically contains information about the author of the section, copyright data or links to related documents.</td>
+      </tr>
+    </tbody>
+ </table>
 </body>
- 
 </html>

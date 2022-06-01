@@ -1,0 +1,46 @@
+body {
+  font-family: monospace;
+  font-weight: 500;
+  background-color: beige;
+}
+
+table {
+  background-color: lightgreen;
+  margin: 50px;
+  text-align: center;
+}
+
+table th {
+  background-color: green;
+  color: white;
+  padding: 5px;
+}
+
+.table {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+}
+
+.one {
+  background-color: green;
+  color: white;
+  padding: 5px;
+}
+
+.two {
+  background-image: linear-gradient(to bottom, lightgreen 50%, #ffffff);
+  padding: 5px;
+}
+
+table caption {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: darkgreen;
+}
+
+h1 {
+  text-align: center;
+  color: darkgreen;
+}
