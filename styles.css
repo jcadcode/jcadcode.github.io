@@ -1,46 +1,88 @@
 body {
-  font-family: monospace;
-  font-weight: 500;
-  background-color: beige;
+  font-family: 'Lato', sans-serif;
 }
-
-table {
-  background-color: lightgreen;
-  margin: 50px;
-  text-align: center;
-}
-
-table th {
-  background-color: green;
-  color: white;
-  padding: 5px;
-}
-
-.table {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1200px;
-}
-
-.one {
-  background-color: green;
-  color: white;
-  padding: 5px;
-}
-
-.two {
-  background-image: linear-gradient(to bottom, lightgreen 50%, #ffffff);
-  padding: 5px;
-}
-
-table caption {
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 5px;
-  color: darkgreen;
-}
-
 h1 {
+  font-family: 'Joan', serif;
   text-align: center;
-  color: darkgreen;
+  text-decoration: underline #8C8B8B;
 }
+
+.box {
+  border: 2px solid #8C8B8B;
+  padding: 20px;
+  margin: 20px 20px;
+  min-width: 700px;
+}
+.colorBox {
+  box-sizing: content-box;
+  display: inline-block;
+  width: 32%;
+  height: 100px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding-top: 15px;
+  margin: 20px auto 20px auto;
+  border-radius: 10px;
+}
+.blue {
+  background-color: #27CEF7;
+}
+.green {
+  background-color: #31E60D;
+}
+.red {
+  background-color: #D10309;
+}
+.yellow {
+  background-color: #F7F30B;
+}
+.beige {
+  background-color: #EFD9CA;
+}
+.grayscale {
+  background-color: #8C8B8B;
+}
+
+
+.font {
+  border-radius: 10px; 
+  background-color: #EFD9CA;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 49%;
+  height: 200px;
+  min-width: 100px;
+  text-align: center;
+  padding: 5px;
+  margin: 20px auto 20px auto;
+}
+.lato {
+  font-family: 'Lato', sans-serif;
+}
+.joan {
+  font-family: 'Joan', serif;
+}
+.tiro {
+  font-family: 'Tiro Gurmukhi', serif;
+}
+.roboto {
+  font-family: 'Roboto', sans-serif;
+}
+.fontPara {
+  text-align: center;
+}
+
+
+.text {
+  font-family: 'Roboto', sans-serif;
+  display: inline-block;
+  width: 400px;
+  height: auto;
+  margin-bottom: 20px;
+}
+.hOnePara {
+  font-size: 32px;
+}
+
+
+
